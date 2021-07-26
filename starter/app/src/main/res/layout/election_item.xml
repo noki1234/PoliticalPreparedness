@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
 <data>
@@ -8,7 +9,7 @@
         type="com.example.android.politicalpreparedness.election.models.Election" />
 </data>
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
@@ -21,6 +22,9 @@
             android:textColor="@color/gray50"
             android:textSize="@dimen/recycler_view_title"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
             tools:text="VIP Test Election" />
 
         <TextView
@@ -28,6 +32,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@{election.electionDay.toString()}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/election_title"
             tools:text="Sun Jun 06 00:00:00 EDT 2021" />
-    </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

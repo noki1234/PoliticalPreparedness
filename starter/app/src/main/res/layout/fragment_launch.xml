@@ -6,7 +6,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
+        android:padding="@dimen/medium_padding"
         tools:context="com.example.android.politicalpreparedness.MainActivity">
 
         <!-- TODO: Add image for home screen logo. -->
@@ -19,7 +19,7 @@
             android:id="@+id/imageView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="32dp"
+            android:layout_marginBottom="@dimen/margin_high"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
             style="@style/ButtonsTheme"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/margin_small"
             android:text="@string/upcoming_elections"
             app:layout_constraintBottom_toTopOf="@+id/find_my_representatives_btn"
             app:layout_constraintEnd_toEndOf="parent"

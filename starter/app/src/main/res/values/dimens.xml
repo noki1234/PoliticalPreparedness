@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="default_padding">8dp</dimen>
-    <dimen name="title_size">20dp</dimen>
-    <dimen name="recycler_view_title">18dp</dimen>
-    <dimen name="normal_text">12dp</dimen>
-    <dimen name="small_text">10dp</dimen>
+    <dimen name="medium_padding">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_high">32dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="recycler_view_title">18sp</dimen>
+    <dimen name="normal_text">12sp</dimen>
+    <dimen name="small_text">10sp</dimen>
 
     <!-- TODO: Add necessary dimension values -->
 
